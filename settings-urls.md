@@ -10,6 +10,7 @@
 - iCloud → iCloud Backup: `prefs:root=CASTLE&path=BACKUP` or `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP`
 - iCloud → Find My: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING`
 - iCloud → Family Sharing: `prefs:root=APPLE_ACCOUNT&path=FAMILY`
+- iCloud → Hide My Email: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE`
 - Wi-Fi: `prefs:root=WIFI`
 - Bluetooth: `prefs:root=Bluetooth`
 - Cellular → (root): `prefs:root=MOBILE_DATA_SETTINGS_ID`
@@ -196,6 +197,7 @@
 - Accessibility → Sound Recognition → Sounds: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE/Sounds`
 - Accessibility → RTT: `prefs:root=ACCESSIBILITY&path=RTT`
 - Accessibility → Audio/Visual: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE`
+- Accessibility → Audio/Visual → Headphone Audio → Headphone Accommodations: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAPersonalAudioSetupSpecID`
 - Accessibility → Subtitles & Captioning: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING`
 - Accessibility → Guided Access → (root): `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE`
 - Accessibility → Guided Access → Passcode Settings: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList`
